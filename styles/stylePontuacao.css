@@ -1,0 +1,25 @@
+@import url("style.css");
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead{
+    background-color: #8b4726;
+}
+
+thead td{
+    color: antiquewhite;
+}
+
+td{
+    color:#8b4726;
+    text-align: center;
+    padding: 15px;
+}
+
+tfoot td{
+    background-color: #8b4726;
+    color: antiquewhite;
+}

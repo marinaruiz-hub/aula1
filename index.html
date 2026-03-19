@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz para progamadores</title>
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <h1 class="titulo">Quiz interativo para programadores</h1>
+        <p>Teste seus conhecimentos em programação e veja qual pontuação você consegue fazer!</p>
+        <div class="cabecalho-menu">
+            <img src="./img/quiz.png" alt="Logodoquiz" class="cabecalho-menu-img">
+            <nav class="menu">
+                <a href="pontuacao.html">Pontuação</a>
+                <a href="respostas.html">Respostas</a>
+                <a href="contato.html">Contato</a>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <!--Seção de introdução ao Quiz-->
+        <section class="container-secoes">
+            <h2 class="subtitulo">Sobre esse quiz</h2>
+            <p class="paragrafo">
+                Este quiz foi desenvolvido para testar seus conhecimentos em programação, como linguagem de progamação,
+                conceitos básicos e mais.
+            </p>
+            <p class="paragrafo">
+                Você encrontrará diferentes tipos de perguntas, incluindo múltiplas escolhas, textos e perguntas de
+                data. Desafie-se com este quiz.
+            </p>
+            <p class="paragrafo">
+                Você podera encontar alguns acrônicos como HTML e CSS, que são comumente usados em questões relacionadas
+                ao desenvolvimento web.
+            </p>
+        </section>
+
+        <!--Pergunta 1: múltipla escolha-->
+        <section class="container-secoes">
+            <h2 class="subtitulo">
+                Pergunta 1: Qual a linguagem é usada para estruturar páginas web?
+            </h2>
+            <form>
+                <input type="radio" name="pergunta1" id="p1a">
+                <label for="p1a">Python</label><br>
+
+                <input type="radio" name="pergunta1" id="p1b">
+                <label for="p1b">HTML</label><br>
+
+                <input type="radio" name="pergunta1" id="p1c">
+                <label for="p1c">Ruby</label><br>
+
+                <input type="radio" name="pergunta1" id="p1d">
+                <label for="p1d">JavaScript</label>
+            </form>
+        </section>
+
+        <!--Pergunta 2: Caixa de Texto-->
+        <section class="container-secoes">
+            <h2 class="subtitulo">
+                Pergunta 2: Na URL http://www.google.com o trecho "google.com" é o _________.
+            </h2>
+            <form>
+                <input type="text" name="pergunta2" id="p2" placeholder="Digite sua resposta">
+            </form>
+        </section>
+
+        <!--Pergunta 3: Senha-->
+        <section class="container-secoes">
+            <h2 class="subtitulo">
+                Pergunta 3:Escreva um exemplo de senha forte.
+            </h2 class="subtitulo">
+            <form>
+                <input type="password" name="pergunta3" id="p3" placeholder="Digite uma senha forte...">
+            </form>
+        </section>
+
+        <!--Pergunta 4: Data-->
+        <Section class="container-secoes">
+            <h2 class="subtitulo">
+                Pergunta 4: Em que ano o HTML lançou sua primeira versão?
+            </h2 class="subtitulo">
+            <form>
+                <input type="date" name="pergunta4" id="p4">
+            </form>
+
+        </Section>
+
+        <!--Pergunta 5: Seleção múltipla - checkbox-->
+        <section class="container-secoes">
+            <h2 class="subtitulo">
+                Pergunta 5: Quais dessas tecnologias são consideradas linguagem de programação?
+            </h2 class="subtitulo">
+            <form>
+                <input type="Checkbox" name="pergunta5" id="p5a" value="JavaScript">
+                <label for="p5a">JavaScript</label>
+
+                <input type="checkbox" name="pergunta5" id="p5b" value="HTML">
+                <label for="p5b">HTML</label>
+
+                <input type="checkbox" name="pergunta5" id="p5c" value="Css">
+                <label for="p5c">CSS</label>
+
+                <input type="checkbox" name="pergunta5" id="p5d" value="Java">
+                <label for="p5d">Java</label>
+            </form>
+        </section>
+
+        <!--Pergunta 6: utilizando upload de arquivo-->
+        <section class="container-secoes">
+            <h2 class="subtitulo">
+                Pergunta 6: Faça um upload de um arquivo contendo código HTML.
+            </h2 class="subtitulo">
+            <form>
+                <input type="file" name="pergunta6" id="p6">
+            </form>
+        </section>
+
+        <!--Pergunta 7: menu suspenso-->
+        <section class="container-secoes">
+            <h2 class="subtitulo">
+                Pergunta 7: Selecione o atributo do input que define o seu tipo:
+            </h2>
+            <form>
+                <select name="pergunta7" id="p7" class="menu-suspenso">
+                    <option value="" disabled selected>selecione</option>
+                    <option value="id">id</option>
+                    <option value="type">type</option>
+                    <option value="placeholder">placeholder</option>
+                </select>
+            </form>
+        </section>
+
+        <!--Pergunta 8: imagem-->
+        <section class="container-secoes">
+            <h2 class="subtitulo">
+                 Pergunta 8: Qual a linguagem de programação é representada pelo logotipo abaixo:
+            </h2 class="subtitulo">
+            <figure>
+                <img src="./img/java.png" alt="Logotipo da linguagem de programaçao Java" class="figure-img">
+                <figcaption>Figura 1: Logotipo de uma linguagem de programação</figcaption>
+            </figure>
+            <form>
+                <input type="text" name="pergunta8" id="p8" placeholder="Digite sua resposta...">
+            </form>
+        </section>
+    </main>
+    <footer class="rodape">
+        <p>
+            &copy Quiz de programação. Todos os direitos reservado.
+        </p>
+        <p>
+            Para conhecer mais sobre mim <a href="https://marinaruiz-hub.github.io/portfolio/" class="footer-link" target="_blank">clique aqui</a> 
+        </p>
+    </footer>
+</body>
+
+</html>

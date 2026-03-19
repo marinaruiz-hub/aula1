@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+    color: aliceblue;
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+}
+
+.titulo{
+    color: antiquewhite;
+}
+
+.paragrafo{
+    color: #8b4726;
+}
+
+.cabecalho{
+    background-color: #8b4726;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.cabecalho-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    background-color: #8b4726;
+    padding: 15px 500px 10px;
+}
+
+.cabecalho-menu-img{
+    width: 100px;
+    height: auto;
+}
+
+.menu{
+    margin: auto;
+}
+
+.menu a{
+    padding: 20px;
+    text-decoration: none;
+    color:antiquewhite;
+    font-weight: bold;
+}
+
+.menu a:hover{
+    background-color:  #62331b;
+    color: antiquewhite;
+    border-radius: 60px;
+    transition: 350ms ease;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 20px;
+}
+
+.container-secoes{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.subtitulo{
+    color: #8b4726;
+    font-size: 20px;
+}
+
+input[type="radio"], input[type="checkbox"]{
+    accent-color: #ccd595;
+}
+
+input[type="text"], input[type="password"], input[type="date"], input[type="email"]{
+    width: 100%;
+    padding: 8px;
+    border: solid 2px #8b4726;
+    border-radius: 5px;
+    outline: none;
+    background-color: transparent;
+}
+
+input::placeholder{
+    color: #8b4726
+}
+
+label{
+    color: #8b4726;
+}
+
+.menu-suspenso{
+    cursor: pointer;
+    width: 30%;
+    height: 30px;
+    background-color: #ccd595;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+figcaption{
+    color: #8b4726;
+}
+
+.figure-img{
+    width: 200px;
+}
+
+.rodape{
+    background-color: #8b4726;
+    color: antiquewhite;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-link{
+    color: #ccd595;
+    text-decoration: none;
+}
+
+.footer-link:hover{
+    text-decoration: underline;
+}

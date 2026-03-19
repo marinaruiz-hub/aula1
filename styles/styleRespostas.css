@@ -1,0 +1,21 @@
+@import url("style.css");
+
+details{
+    background-color: #8b4726;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+summary{
+    color: antiquewhite;
+    cursor: pointer;
+}
+
+ol{
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+li{
+    padding: 5px;
+}

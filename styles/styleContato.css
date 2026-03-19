@@ -1,0 +1,49 @@
+@import url("style.css");
+
+fieldset{
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #8b4726;
+}
+
+fieldset label{
+    display: block;
+    margin-top: 10px;
+    
+}
+
+legend{
+    color: #8b4726;
+    padding: 0 8px;
+}
+
+textarea{
+    background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid #8b4726;
+    outline: none;
+}
+
+textarea::placeholder{
+    color: #cbbba7;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+input::placeholder{
+    color: #cbbba7
+}
+
+button{
+    background-color: #8b4726;
+    color: antiquewhite;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    font-weight: bold;
+    border: 2px solid #cbbba7;
+}
